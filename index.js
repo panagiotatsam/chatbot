@@ -17,7 +17,6 @@ webpush.setVapidDetails(WEB_PUSH_CONTACT, PUBLIC_VAPID_KEY, PRIVATE_VAPID_KEY);
 
 var admin = require("firebase-admin");
 var serviceAccount = require("./config/healthbe-1eca5-firebase-adminsdk-dpdir-f2766b2056.json");
-//var serviceAccount = require("./config/onepirate-629ed-firebase-adminsdk-jcb91-400ff07e47.json");
 const { userInfo } = require("os");
 const { get } = require("request");
 
